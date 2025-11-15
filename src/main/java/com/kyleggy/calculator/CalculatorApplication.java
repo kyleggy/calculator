@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CalculatorApplication {
-	private static final String constantValue = "constantValue";
+	private static final String ConstantValue = "ConstantValue";
 	public static void main(String[] args) {
 		SpringApplication.run(CalculatorApplication.class, args);
 	}
