@@ -13,4 +13,12 @@ public class CalculatorTest {
 
      }
 
+     @Test
+
+     public void testSubtract() {
+
+          assertEquals(1, calculator.subtract(3, 2));
+
+     }
+
 }
